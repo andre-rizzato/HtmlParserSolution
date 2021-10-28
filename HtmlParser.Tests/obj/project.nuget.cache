@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rr+iom37exUzUmxSle+5hK7JaWCqad8tjpEfuy4wP8PKE1tGEsVuOTvq/gOMvr5UlwYvtv/OXgW1dyh00xNa+g==",
+  "dgSpecHash": "DLCcggOzrTjxBVTzMg1WvE0HbwwGWOl3esc3BTMjbvjQ5jXabdXXxN38CW8bL374LlzkuooczD/fs7ox9xk1Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\htmlagilitypack\\1.11.37\\htmlagilitypack.1.11.37.nupkg.sha512",

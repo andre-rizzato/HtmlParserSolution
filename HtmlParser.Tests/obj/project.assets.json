@@ -5038,11 +5038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
       "projectName": "HtmlParser.Tests",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser.Tests\\HtmlParser.Tests.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser.Tests\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5063,8 +5063,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser\\HtmlParser.csproj": {
-              "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser\\HtmlParser.csproj"
+            "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser\\HtmlParser.csproj": {
+              "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser\\HtmlParser.csproj"
             }
           }
         }

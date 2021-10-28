@@ -75,11 +75,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser\\HtmlParser.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser\\HtmlParser.csproj",
       "projectName": "HtmlParser",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser\\HtmlParser.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser\\HtmlParser.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Projects\\HtmlParser\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Documentos\\Visual Studio 2019\\HtmlParserSolution\\HtmlParser\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
