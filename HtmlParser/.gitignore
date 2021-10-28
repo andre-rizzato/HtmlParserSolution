@@ -1,0 +1,6 @@
+
+*.testlog
+*.dll
+*.pdb
+*.cache
+*.txt

@@ -1,0 +1,14 @@
+﻿@model ImageParseResultsModel
+@{
+    ViewBag.Title = "Images Parse Results";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h5>These are the images we got from the informed site</h5>
+
+<div class="container-xl">
+
+    @foreach (var item in Model.Images)
+    {
+        @Html.Raw(@item)
+    }
+</div>

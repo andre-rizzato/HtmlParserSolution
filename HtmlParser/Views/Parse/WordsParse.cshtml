@@ -1,0 +1,40 @@
+﻿@using HtmlParser.Enums;
+@model HtmlParser.Models.InputModel
+
+@{
+    ViewBag.Title = "Words Parse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("WordsParseResults", "Parse", FormMethod.Get, new { role = "form" }))
+{
+    <h5>Inform a website address to rank it's words.</h5>
+    <hr />
+    <div class="form-group">
+        <h6>
+            @Html.LabelFor(m => m.ParsingType, new { @class = "col-md-2 control-label" })
+        </h6>
+        <div class="col-md-10">
+
+            @Html.DropDownListFor(m => m.ParsingType, new SelectList(Enum.GetValues(typeof(ParsingTypes))), new { @class = "btn btn-primary dropdown-toggle", @style = "text-align: left;" , @onchange = "SelectedIndexChanged()", @id="ParsingTypeDropDown" })
+         <label id="ParsingType" class="alert-info" style="margin-left:3px;"></label>
+        </div>
+        <hr />
+        <h6>
+            @Html.LabelFor(m => m.Field, new { @class = "col-md-2 control-label" })
+        </h6>
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Field, new { @class = "form-control" }) @*
+        @type = "url" I have chosen not to set this parameter to allow the user to communicate the name of a site and the solution completes the scheme *@
+        </div>
+
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+    </div>
+    <div class="form-group">
+        <div class="col-md">
+            <button type="submit" class="btn btn-primary">Process Words</button>
+        </div>
+    </div>
+
+}
+

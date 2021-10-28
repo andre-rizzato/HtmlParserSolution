@@ -1,0 +1,57 @@
+﻿@model WordsParseResultsViewModel
+
+@{
+    ViewBag.Title = "Words Parse Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    int i = 1;
+
+}
+
+
+<h5 style="margin: 32px;text-align: center; font-size: 22px; font-weight: bold; ">Words' Ranking and Graph</h5>
+
+<div class="container-xl" style="display: grid; grid-template-columns: repeat(2,1fr);">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Position
+                </th>
+                <th>
+                    Word
+                </th>
+                <th>
+                    Quantity
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.WordsRanking)
+            {
+                <tr>
+                    <td>
+                        @Html.Raw(i++)
+                    </td>
+                    <td>
+                        @Html.Raw(@item.Key)
+                    </td>
+                    <td>
+                        @Html.Raw(@item.Value)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div id="chart" style="min-height: 395px; background-color: #f2f2f2;border: solid; border-style: ridge; "/>
+</div>
+
+@if (ViewBag.JavaScriptFunction != null)
+{
+    <script type="text/javascript">
+           @Html.Raw(ViewBag.JavaScriptFunction)
+    </script>
+    
+}
+
+
